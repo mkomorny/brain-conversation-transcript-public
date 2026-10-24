@@ -1,0 +1,41 @@
+HOW TO USE: brain-conversation-transcript
+=========================================
+
+PURPOSE
+  Archive the detailed procedural dialogue and step-by-step transcript of your
+  active conversation directly into your Second Brain for permanent audit and recall.
+
+CAPABILITIES
+  - Scans complete chat history from opening prompt to current state
+  - Formats chronological log of user requests, agent actions, tools called, and fixes
+  - Catalogs all files, skills, or scripts created or altered during the session
+  - Direct command execution carries automatic write permission (no secondary prompt)
+  - Saves directly to personal Second Brain MCP server via `remember`
+  - Returns confirmed entry ID and transcript overview
+
+USE CASES
+  - "Save the transcript of this conversation"
+  - Archiving a complex debugging sequence with exact commands and tool results
+  - Creating a permanent chronological record of a paired programming session
+
+IDEAS
+  - Use `/brain-conversation-transcript` when you want the literal step-by-step history preserved
+  - Use `/brain-summarize-conversation` when you want a concise high-level brief instead
+
+PROMPTS YOU CAN PASTE
+  /brain-conversation-transcript
+
+  /brain-conversation-transcript #audit
+
+EXAMPLE FLOW
+  You:   /brain-conversation-transcript
+  Agent: [Compiles chronological transcript log and saves to Second Brain]
+         ✅ Conversation Transcript Saved
+         - ID: 7b219e-4c12-...
+         - Tags: #transcript, #conversation, #second-brain
+         [Renders transcript header and confirmation]
+
+DEFAULT GOALS IF YOU DON'T NAME ONE
+  1. Compile chronological transcript of conversation prompts, actions, and deliverables
+  2. Call remember MCP tool immediately with #transcript tag
+  3. Report confirmed memory ID and summary in chat
